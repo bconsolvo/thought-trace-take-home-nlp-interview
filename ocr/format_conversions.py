@@ -1,3 +1,5 @@
+# Converts a PDF to multiple JPG files (1 for each page)
+
 from wand.image import Image as Img
 
 def pdf2png(pdffile):
