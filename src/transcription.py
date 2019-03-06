@@ -5,6 +5,7 @@ import glob
 import pandas as pd
 import numpy as np
 
+#pytesseract.pytesseract.tesseract_cmd = ''
 
 class ocrpytesseract:
     #def __init__(self, drc):
