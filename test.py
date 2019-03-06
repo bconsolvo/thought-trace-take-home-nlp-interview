@@ -12,8 +12,8 @@ from src import conftranscription
 
 
 # Must specify the path of pytesseract, but cannot figure out the path for Travis CI
-a = ocrpytesseract() #must initiate the class before it can be used.
-txt_strings, score_tbl = a.jpg2text('src/')
+#a = ocrpytesseract() #must initiate the class before it can be used.
+#txt_strings, score_tbl = a.jpg2text('src/')
 #print(txt_strings)
 #print(score_tbl)
 
