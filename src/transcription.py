@@ -24,6 +24,6 @@ class ocrpytesseract:
             print('The mean confidence value is', mean1,'. Transcription complete!')
             lst_text.append(text)
         # Saving the text to a dataframe, and then writing out a CSV to be used in the confidence function later.
-        df = pd.DataFrame(lst_scores)
+        df = pd.DataFrame(lst_text)
         df.to_csv('pyt_output.csv',index=False,header=None)
         return lst_text, scores
