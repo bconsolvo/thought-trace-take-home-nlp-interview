@@ -7,10 +7,11 @@ from src import formatconversions
 from src.transcription import ocrpytesseract
 from src import conftranscription
 
+#Wand and Imagemagick is having difficulties reading the PDF
 # formatconversions.pdf2png('src/doc_test.pdf')
 
 
-
+# Must specify the path of pytesseract, but cannot figure out the path for Travis CI
 #a = ocrpytesseract()
 #txt_strings, score_tbl = a.jpg2text('src/')
 #print(txt_strings)
