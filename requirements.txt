@@ -2,7 +2,7 @@ Wand>=0.5.1
 magickwand>=0.2
 pandas>=0.22.0
 numpy>=1.14.6
--e git://github.com/madmaze/pytesseract.git
+-e git://github.com/madmaze/pytesseract.git#egg=elasticutils
 image>=1.5.27
 Pillow>=4.1.1
 glob2>=0.6
