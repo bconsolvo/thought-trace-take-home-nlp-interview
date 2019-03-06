@@ -15,4 +15,4 @@ formatconversions.pdf2png('files/doc_test.pdf')
 #txt, scr = a.jpg2text('files/')
 
 
-conftranscription.ocrall('files/doc_test_ocr.csv','files/valid_words.txt')
+master,grade = conftranscription.ocrall('files/doc_test_ocr.csv','files/valid_words.txt')
