@@ -13,8 +13,8 @@ from src import conftranscription
 
 a = ocrpytesseract()
 txt_strings, score_tbl = a.jpg2text('files/')
-print(txt)
-print(scr)
+print(txt_strings)
+print(score_tbl)
 
 
 master,grade = conftranscription.ocrall('files/doc_test_ocr.csv','files/valid_words.txt')
