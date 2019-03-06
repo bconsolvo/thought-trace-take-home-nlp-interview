@@ -1,4 +1,4 @@
-import sys
+import sys, os
 from ocr import format_conversions
 from ocr.transcription import ocrpytesseract
 
