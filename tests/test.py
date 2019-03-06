@@ -7,4 +7,3 @@ sys.path.append('../ocr/')
 pdf2png('doc_test.pdf')
 
 txt, scr = jpg2text()
-scr
