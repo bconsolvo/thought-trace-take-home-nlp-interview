@@ -5,10 +5,14 @@ import sys, os
 
 from ocr import formatconversions
 from ocr.transcription import ocrpytesseract
-
+from ocr.confidence import conftranscription
 
 formatconversions.pdf2png('files/doc_test.pdf')
 
 
-a = ocrpytesseract()
-txt, scr = a.jpg2text('files/')
+
+#a = ocrpytesseract()
+#txt, scr = a.jpg2text('files/')
+
+
+conftranscription.ocrall('files/doc_test_ocr.csv','files/valid_words.txt')
