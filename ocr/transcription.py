@@ -6,7 +6,7 @@ import pandas as pd
 import numpy as np
 
 
-class ocr_pytesseract:
+class ocrpytesseract:
     def __init__(self, im_list):
         self.im_list = sorted(glob.glob('*.jpg'))
     
