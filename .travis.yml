@@ -8,4 +8,4 @@ install:
 #before_script: cd /home/travis/build/bconsolvo/ocr_bconsolvo/
 
 script:
-  - python3 test.py
+  - python test.py
