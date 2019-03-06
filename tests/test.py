@@ -1,5 +1,5 @@
 import sys
-sys.path.append('../ocr')
+sys.path.append('../ocr/')
 from ocr import format_conversions
 from ocr.transcription import ocrpytesseract
 
