@@ -14,6 +14,9 @@ class ocrpytesseract:
     def jpg2text(self,drc):
         im_list = sorted(glob.glob(drc+'*.jpg'))
         lst_text = []
+        text = []
+        scores = []
+        mean = []
         for i in im_list:
             imjpg = Image.open(i) # Opening the image with PIL
             print('Transcribing text')
