@@ -21,5 +21,7 @@ class ocr_pytesseract:
             mean1 = scores.conf.replace(-1,np.NaN).mean() # Taking the mean confidence value over each word in the transcription
             print('The mean confidence value of', i, 'is', mean1,'. Transcription complete!')
             lst_text.append(text)
+        # Saving the text to a dataframe, and then writing out a CSV to be used in the confidence function later.
+        df = pd.DataFrame(lst_scores)
+        df.to_csv('pyt_output.csv',index=False,header=None)
     return lst_text, scores 
-    
