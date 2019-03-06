@@ -5,7 +5,7 @@ import sys, os
 
 from ocr import formatconversions
 from ocr.transcription import ocrpytesseract
-from ocr.confidence import conftranscription
+from confidence import conftranscription
 
 formatconversions.pdf2png('files/doc_test.pdf')
 
