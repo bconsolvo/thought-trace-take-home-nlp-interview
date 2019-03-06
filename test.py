@@ -3,16 +3,16 @@ import sys, os
 #sys.path.append('../ocr')
 
 
-from ocr import formatconversions
-from ocr.transcription import ocrpytesseract
-from confidence import conftranscription
+from src import formatconversions
+from src.transcription import ocrpytesseract
+from src import conftranscription
 
 # formatconversions.pdf2png('files/doc_test.pdf')
 
 
 
 a = ocrpytesseract()
-txt, scr = a.jpg2text('files/')
+txt_strings, score_tbl = a.jpg2text('files/')
 print(txt)
 print(scr)
 
