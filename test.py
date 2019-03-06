@@ -11,10 +11,10 @@ from src import conftranscription
 
 
 
-a = ocrpytesseract()
-txt_strings, score_tbl = a.jpg2text('src/')
-print(txt_strings)
-print(score_tbl)
+#a = ocrpytesseract()
+#txt_strings, score_tbl = a.jpg2text('src/')
+#print(txt_strings)
+#print(score_tbl)
 
 
 master,grade = conftranscription.ocrall('src/doc_test_ocr.csv','src/valid_words.txt')
