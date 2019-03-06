@@ -11,4 +11,4 @@ formatconversions.pdf2png('files/doc_test.pdf')
 
 
 a = ocrpytesseract()
-txt, scr = a.jpg2text('$TRAVIS_BUILD_DIR/files/')
+txt, scr = a.jpg2text('files/')
