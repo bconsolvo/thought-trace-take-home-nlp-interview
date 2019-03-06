@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-def ocr_all(ocr_csv,dct_csv):
+def ocrall(ocr_csv,dct_csv):
     #### Reading in the OCR output and words dictionary ####
     ocr_o = pd.read_csv(ocr_csv,names = ["Text"]) # Each line is a new paragraph in this OCR output.
     dct_o = pd.read_csv(dct_csv,names = ["Words"]) # Reading in the dictionary of words
