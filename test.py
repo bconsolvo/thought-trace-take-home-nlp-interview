@@ -7,6 +7,6 @@ from ocr import formatconversions
 from ocr.transcription import ocrpytesseract
 
 
-pdf2png('tests/doc_test.pdf')
+formatconversions.pdf2png('tests/doc_test.pdf')
 
 #txt, scr = jpg2text()
