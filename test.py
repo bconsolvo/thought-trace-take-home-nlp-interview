@@ -11,8 +11,10 @@ from confidence import conftranscription
 
 
 
-# a = ocrpytesseract()
-# txt, scr = a.jpg2text('files/')
+a = ocrpytesseract()
+txt, scr = a.jpg2text('files/')
+print(txt)
+print(scr)
 
 
 master,grade = conftranscription.ocrall('files/doc_test_ocr.csv','files/valid_words.txt')
