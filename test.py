@@ -16,3 +16,5 @@ formatconversions.pdf2png('files/doc_test.pdf')
 
 
 master,grade = conftranscription.ocrall('files/doc_test_ocr.csv','files/valid_words.txt')
+print(master)
+print(grade)
