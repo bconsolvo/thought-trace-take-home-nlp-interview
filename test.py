@@ -7,12 +7,12 @@ from ocr import formatconversions
 from ocr.transcription import ocrpytesseract
 from confidence import conftranscription
 
-formatconversions.pdf2png('files/doc_test.pdf')
+#formatconversions.pdf2png('files/doc_test.pdf')
 
 
 
-#a = ocrpytesseract()
-#txt, scr = a.jpg2text('files/')
+a = ocrpytesseract()
+txt, scr = a.jpg2text('files/')
 
 
 master,grade = conftranscription.ocrall('files/doc_test_ocr.csv','files/valid_words.txt')
