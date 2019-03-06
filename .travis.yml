@@ -8,9 +8,11 @@ addons:
       - libtesseract-dev
       - tesseract-ocr-eng
       - libmagick++-dev
+      
 # command to install dependencies
 install:
   - pip install -r requirements.txt
+  
 # command to run tests
 #before_script: cd /home/travis/build/bconsolvo/ocr_bconsolvo/
 
