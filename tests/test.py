@@ -1,7 +1,8 @@
 import sys
-sys.path.append('../ocr/')
 from ocr import format_conversions
 from ocr.transcription import ocrpytesseract
+
+sys.path.append('../ocr/')
 
 pdf2png('doc_test.pdf')
 
