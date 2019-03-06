@@ -24,4 +24,4 @@ class ocrpytesseract:
         # Saving the text to a dataframe, and then writing out a CSV to be used in the confidence function later.
         df = pd.DataFrame(lst_scores)
         df.to_csv('pyt_output.csv',index=False,header=None)
-    return lst_text, scores 
+    return lst_text, scores
