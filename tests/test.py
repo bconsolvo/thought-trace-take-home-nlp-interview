@@ -4,5 +4,5 @@ from ocr.transcription import ocrpytesseract
 
 pdf2png('doc_test.pdf')
 
-txt, scr = jpg2text
+txt, scr = jpg2text()
 scr
