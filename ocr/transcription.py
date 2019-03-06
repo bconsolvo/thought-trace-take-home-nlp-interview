@@ -7,12 +7,14 @@ import numpy as np
 
 
 class ocrpytesseract:
-    def __init__(self, im_list):
-        self.im_list = sorted(glob.glob('*.jpg'))
+    #def __init__(self, drc):
+    #    self.drc = drc
+    #im_list = sorted(glob.glob('files/*.jpg'))
     
-    def jpg2text(self):
+    def jpg2text(self,drc):
+        im_list = sorted(glob.glob(drc+'*.jpg'))
         lst_text = []
-        for i in self.im_list:
+        for i in im_list:
             imjpg = Image.open(i) # Opening the image with PIL
             print('Transcribing text')
             text = pytesseract.image_to_string(imjpg) # Uses trained model from Tesseract to convert JPG image to a string of text
