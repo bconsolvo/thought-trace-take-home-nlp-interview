@@ -25,7 +25,7 @@ setup(
     ],
     #keywords='keywords' # Optional
     packages=find_packages(), # Required
-    python_requires='>=3.5',
+    python_requires='>=3.6',
     #install_requires=['none'], # Optional
     #extras_require={} # Optional
     #package_data = {} # Optional
