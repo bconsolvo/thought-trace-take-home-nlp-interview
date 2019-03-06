@@ -1,6 +1,13 @@
 language: python
 python:
   - "3.6"
+
+addons:
+  apt:
+    packages:
+      - libtesseract-dev
+      - tesseract-ocr-eng
+      - libmagick++-dev
 # command to install dependencies
 install:
   - pip install -r requirements.txt
