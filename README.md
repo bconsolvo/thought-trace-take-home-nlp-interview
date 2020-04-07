@@ -1,2 +1,2 @@
 # NLP
-Functions for natural language processing
+A Jupyter Notebook containing functions that I wrote for natural language processing.
